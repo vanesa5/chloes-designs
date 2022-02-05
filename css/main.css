@@ -126,20 +126,25 @@ textarea {
 
 header,
 footer {
-  background-color: #ddc3b6;
+  background-color: white;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:flex-end;
     flex-flow: row wrap;
 }
     
 header figure {
-  width: 60%;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  background:transparent;
+  padding-left: 90px;
+  
+}
+
+figure a {
+  align-items: center;
 }
 
 
@@ -148,9 +153,10 @@ header figure {
      font-size: 2em;
      color: red;
      text-align: center;
+     text-transform: uppercase;
    }
 
-   .box-1, .box-3 {
+   .box-1, .box-2, .box-3 {
      background-color: #ff9aa2;
    }
 
