@@ -126,7 +126,7 @@ textarea {
 
 header,
 footer {
-  background-color: #8ac3d1;
+  background-color: #ddc3b6;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,11 +151,12 @@ header figure {
    }
 
    .box-1, .box-3 {
-     background-color: orange;
+     background-color: #ff9aa2;
    }
 
    /* Footer Section */
    footer {
+    background-color: #b1b1b1;
     flex-direction: column;
     text-align: center;
    }
