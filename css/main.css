@@ -145,7 +145,7 @@ figure a {
 }
 
 header h1 {
-  font-size: 2em;
+  font-size: 1.15em;
   color: black;
   text-align: center;
   text-transform: uppercase;
@@ -153,25 +153,22 @@ header h1 {
    }
 
    header nav {
-    padding-left: 30%;
+    
     font-weight: 700;
     text-transform: uppercase;
     display: flex;
     text-align: center;
-    
-    
-   
   }
   
   header nav ul{
-    width: 50%;
+    width: 100%;
     display:flex;
     justify-content: space-around;
     list-style-type: none;
   }
 
   a {
-    font-size: 1.25em;
+    font-size: 1em;
     text-decoration: none;
     color: #aec7b3;
   }
@@ -431,6 +428,31 @@ header h1 {
 
    @media only screen and (min-width: 768px) {
     /* Style adjustments for viewports that meet the condition */
+    /*Heder*/
+    header h1 {
+      font-size: 2em;
+    }
+
+    header nav ul{
+      width: 50%;
+      display:flex;
+      justify-content: space-around;
+      list-style-type: none;
+    }
+
+    header nav {
+      font-weight: 700;
+      text-transform: uppercase;
+      display: flex;
+      justify-content: center;
+    }
+
+    a {
+      font-size: 1.2em;
+      text-decoration: none;
+      color: #aec7b3;
+    }
+
   }
 
   @media only screen and (min-width: 1400px) {
