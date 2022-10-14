@@ -87,6 +87,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+    /* Font Styles */
+   @font-face { font-family: Simplicity; src: url('simplicity.ttf'); } 
+   @font-face { font-family: Kathen; src: url('kathen.otf'); } 
+
+   
+ 
    /* General Styles */
    
    html {
@@ -144,12 +150,15 @@ figure a {
   align-items: center;
 }
 
+
+
+
 header h1 {
   font-size: 1.15em;
   color: black;
   text-align: center;
   text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
+    font-family: Kathen;
    }
 
    header nav {
