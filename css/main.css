@@ -128,8 +128,8 @@ textarea {
 
 header,
 footer {
-  background-color: white;
-    display: flex;
+  background:#0091ea;
+      display: flex;
     justify-content: center;
     align-items:flex-end;
     flex-flow: row wrap;
@@ -141,15 +141,20 @@ header figure {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background: white;
   
 }
 
 figure a {
   align-items: center;
+  
+
 }
 
 
-
+header{
+  background:#0091ea;
+}
 
 header h1 {
   font-size: 2.15em;
@@ -157,7 +162,6 @@ header h1 {
   text-align: center;
   text-transform: uppercase;
     font-family: Kathen;
-    filter: drop-shadow(1px 2px 6px lightgrey);
 
    }
 
@@ -180,7 +184,7 @@ header h1 {
   a {
     font-size: 1em;
     text-decoration: none;
-    color: #aec7b3;
+    color: white;
     letter-spacing: .1em;
   }
   
@@ -498,8 +502,12 @@ img.colab-photo {
    @media only screen and (min-width: 768px) {
     /* Style adjustments for viewports that meet the condition */
     /*Heder*/
+
+    figure a {
+      width: 50%;
+  }
     header h1 {
-      font-size: 2em;
+      font-size: 2.5em;
     }
 
     header nav ul{
@@ -519,7 +527,19 @@ img.colab-photo {
     a {
       font-size: 1.2em;
       text-decoration: none;
-      color: #aec7b3;
+    }
+
+    /* Product Section */
+
+    #products{
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-flow:row wrap;
+    }
+
+    #bibs-board {
+      width: 45%;
     }
 
   }
