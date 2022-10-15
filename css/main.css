@@ -386,16 +386,24 @@ header h1 {
   align-items: center;
   flex-flow: row wrap;
   background-color: #b9d5da;
-  padding: 50px;
+  
 }
 
-.collaboration img {
-  width: 45%;
+img.ocean-fantasy-logo {
+  width: 30%;
+}
+img.colab-photo {
   border: white 6px solid;
+  display: flex;
   justify-content: center;
+  width: 90%;
+  margin: auto;
 }
 
-
+.collaboration-info {
+  width: 90%;
+  padding: 1.5em 0;
+}
 
 
 
