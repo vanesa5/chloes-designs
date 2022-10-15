@@ -181,6 +181,7 @@ header h1 {
     font-size: 1em;
     text-decoration: none;
     color: #aec7b3;
+    letter-spacing: .1em;
   }
   
   
@@ -246,18 +247,25 @@ header h1 {
 
 
   /* Boxe Events */
+  .box-event p{
+    margin-top: 60px;
+  }
 .box-event{
+  width: 90%;
   align-content: center;
-  
+  border-top: 3px solid #ff5253;
     text-align: center;
+    margin: auto;
+    
    }
 
    .box-event p {
     color: #ff8a80;
     font-weight: 400;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     text-transform: uppercase;
+    letter-spacing: .10em;
   }
 
 
