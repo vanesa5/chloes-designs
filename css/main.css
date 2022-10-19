@@ -110,7 +110,7 @@ textarea {
     width: 100%;
   }
 
-   address {
+   address, .social, .copyright {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     font-style: normal;
@@ -269,7 +269,7 @@ header h1 {
     font-weight: 400;
     font-size: 1.5em;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: capitalize;
     letter-spacing: .10em;
   }
 
@@ -289,7 +289,7 @@ header h1 {
      }
      
      footer .content-wrapper {
-     width: 55%;
+     width: 80%;
      
      }
      
@@ -298,7 +298,11 @@ header h1 {
        margin-bottom: 50px;
      }
      
-     
+     footer .social {
+      width: 50%;
+      margin: auto;
+  }
+
      footer .social-icons {
        display: flex;
        justify-content: space-around;
@@ -407,7 +411,7 @@ img.colab-photo {
 
 .collaboration-info {
   width: 90%;
-  padding: 1.5em 0;
+  padding: 4rem;
 }
 
 
@@ -518,7 +522,7 @@ img.colab-photo {
     }
 
     header nav ul{
-      width: 50%;
+      width: 80%;
       display:flex;
       justify-content: space-around;
       list-style-type: none;
@@ -556,7 +560,28 @@ img.colab-photo {
       margin: 1.75rem;
     }
 
+
+    /*=======================================
+               About Page
+    ========================================*/  
+
+    #mission .content-wrapper {
+      width: 80%;
+    }
+
+
+    /*=======================================
+               Colab Page
+========================================*/
+img.ocean-fantasy-logo{
+  width: 15%;
+}
+img.colab-photo{
+  width: 50%;
+}
   }
+
+
 
   @media only screen and (min-width: 1400px) {
     /* Style adjustments for viewports that meet the condition */
@@ -564,6 +589,7 @@ img.colab-photo {
     .content-wrapper {
       max-width: 87.5rem;
   }
+  
 
 
   }
