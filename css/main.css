@@ -89,8 +89,6 @@ textarea {
    /* Font Styles */
    @font-face { font-family: Simplicity; src: url('simplicity.ttf'); } 
    @font-face { font-family: Kathen; src: url('kathen.otf'); } 
-
- 
    
  
    /* General Styles */
@@ -111,7 +109,7 @@ textarea {
   }
 
    address, .social, .copyright {
-    font-family: 'Open Sans', sans-serif;
+    font-family: Simplicity;
     text-align: center;
     font-style: normal;
    
@@ -144,7 +142,6 @@ header figure {
   background: transparent;
   margin: 0;
   
-  
 }
 
 figure a {
@@ -152,6 +149,7 @@ figure a {
   
 
 }
+
 
 
 
@@ -165,11 +163,12 @@ header h1 {
    }
 
    header nav {
-    margin-top:40px;
+    font-family: Kathen;
     font-weight: 700;
     text-transform: uppercase;
     display: flex;
     text-align: center;
+    margin-top: 40px;
   }
   
   header nav ul{
@@ -183,14 +182,19 @@ header h1 {
   a {
     font-size: 1em;
     text-decoration: none;
-    color: #ff5253;
+    color:#ff5253;
     letter-spacing: .1em;
   }
   
   
 
 /* PRODUCT Board */
-
+h3 {
+    width: 100%;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 2rem;
+}
 #products .content-wrapper {
   width: 90%;
   padding-top: 3rem;
@@ -278,7 +282,7 @@ header h1 {
 
   
     footer {
-     
+    
       
       text-align: center;
      }
@@ -341,10 +345,9 @@ header h1 {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  background-color: #aec7b3;
 }
 .mission h2 {
-  color: white;
+  color: #ff8a80;
 }
 
 .mission .mission-content h2 {
@@ -393,7 +396,7 @@ header h1 {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  background-color: #b9d5da;
+  ;
   
 }
 
@@ -401,16 +404,17 @@ img.ocean-fantasy-logo {
   width: 30%;
 }
 img.colab-photo {
-  border: white 6px solid;
+  border: lightgray 6px solid;
   display: flex;
   justify-content: center;
   width: 90%;
   margin: auto;
 }
 
-.collaboration-info {
-  width: 90%;
-  padding: 4rem;
+
+
+.collaboration-info h2{
+    color: #ff8a80;
 }
 
 
@@ -515,6 +519,7 @@ img.colab-photo {
 
     figure a {
       width: 50%;
+          padding-bottom: 40px;
   }
     header h1 {
       font-size: 2.5em;
@@ -532,6 +537,7 @@ img.colab-photo {
       text-transform: uppercase;
       display: flex;
       justify-content: center;
+      font-family: Kathen;
     }
 
     a {
@@ -576,7 +582,8 @@ img.ocean-fantasy-logo{
   width: 15%;
 }
 img.colab-photo{
-  width: 50%;
+  width: 70%;
+  margin-top: 40px;
 }
   }
 
@@ -589,8 +596,25 @@ img.colab-photo{
       max-width: 87.5rem;
   }
   
+      figure a {
+      width: 30%;
+  }
 
+h3 {
+    font-size: 3rem;
+}
 
+    /*=======================================
+               Colab Page
+========================================*/
+
+.collaboration-info h2{
+    font-size: 2rem;
+}
+
+.collaboration-info p{
+    font-size: 1.5rem;
+}
   }
 
 
