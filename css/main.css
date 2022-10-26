@@ -128,7 +128,7 @@ textarea {
 
 header,
 footer {
-  background:#0091ea;
+  background:white;
       display: flex;
     justify-content: center;
     align-items:flex-end;
@@ -152,9 +152,6 @@ figure a {
 }
 
 
-header{
-  background:#0091ea;
-}
 
 header h1 {
   font-size: 2.15em;
@@ -184,7 +181,7 @@ header h1 {
   a {
     font-size: 1em;
     text-decoration: none;
-    color: white;
+    color: #ff8a80;
     letter-spacing: .1em;
   }
   
